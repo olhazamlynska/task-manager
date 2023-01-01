@@ -4,6 +4,7 @@ import css from './TaskCounter.module.css';
 
 export const TaskCounter = () => {
   const tasks = useSelector(getTasks);
+
   const count = tasks.reduce(
     (acc, task) => {
       if (task.completed) {
@@ -15,6 +16,7 @@ export const TaskCounter = () => {
     },
     { active: 0, completed: 0 }
   );
+
   return (
     <div>
       <p className={css.text}>Active: {count.active}</p>
