@@ -1,8 +1,8 @@
 {
-  "name": "react-homework-template",
+  "name": "task-manager",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://olhazamlynska.github.io/task-meneger-react/",
+  "homepage": "https://olhazamlynska.github.io/task-manager/",
   "dependencies": {
     "@redux-devtools/extension": "^3.2.3",
     "@reduxjs/toolkit": "^1.9.1",
